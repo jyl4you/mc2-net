@@ -9,9 +9,9 @@ Contact: Jongyeon Lee, KAIST (jyl4you@kaist.ac.kr)
 ## Paper
 [MC<sup>2</sup>-Net: Motion Correction Network for Multi-Contrast Brain MRI]() <br />
 Jongyeon Lee, Byungjai Kim, and [Hyunwook Park](http://athena.kaist.ac.kr) <br />
-archive
+(Under review)
 
-Please cite our paper if you find it useful for your research.
+Please cite our paper if you find it useful for your research. (Currently under review for MRM)
 
 ```
 @inproceedings{,
@@ -54,7 +54,12 @@ cd mc2-net
 * You may use [BraTS 2020](https://ipp.cbica.upenn.edu/#BraTS20_registration) as an alternative dataset. To generate the data for training, please refer to the paper and Figure 4 for motion simulation. This step is not implmented in Python code due to its dependency on pulse sequences.
 
 ## Testing
+* Use CUDA_VISIBLE_DEVICES for GPU selection
+* Evaluate the predicted images and save them as png files
 
+```
+CUDA_VISIBLE_DEVICES=0 python test.py --load_weight_name ./weight/[weight filename].h5
+```
 
 ## Training Examples
 * Use CUDA_VISIBLE_DEVICES for GPU selection
@@ -63,12 +68,6 @@ cd mc2-net
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py --num_epoch 1000
 ```
-
-## Related Implementation and Dataset
-
-## Acknowledgment
-
-## Note
 
 
 
