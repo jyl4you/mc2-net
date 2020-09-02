@@ -45,7 +45,7 @@ conda install tensorflow-gpu=2.2.0 scikit-image=0.16.2
 
 * Clone this repo
 ```
-git clone https://github.com/jyl4you/mc2-net.git
+git clone https://github.com/OpenXAIProject/mc2-net.git
 cd mc2-net
 ```
 
