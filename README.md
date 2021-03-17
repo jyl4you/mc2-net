@@ -15,10 +15,10 @@ Please cite our paper if you find it useful for your research. (Currently under 
 
 ```
 @inproceedings{,
-  author = {},
-  booktitle = {},
+  author = {Jongyeon Lee, Byungjai Kim, HyunWook Park},
+  booktitle = {Magnetic Resonance in Medicine},
   title = {MC2-Net: Motion Correction Network for Multi-Contrast Brain MRI},
-  year = {2020}
+  year = {2021}
 }
 ```
 
