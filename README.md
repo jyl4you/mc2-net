@@ -7,11 +7,11 @@ Tensorflow implementation of "MC<sup>2</sup>-Net: Motion Correction Network for 
 Contact: Jongyeon Lee, KAIST (jyl4you@kaist.ac.kr)
 
 ## Paper
-[MC<sup>2</sup>-Net: Motion Correction Network for Multi-Contrast Brain MRI]() <br />
+[MC<sup>2</sup>-Net: Motion Correction Network for Multi-Contrast Brain MRI](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28719) <br />
 Jongyeon Lee, Byungjai Kim, and [Hyunwook Park](http://athena.kaist.ac.kr) <br />
-(Under review)
+(MRM)
 
-Please cite our paper if you find it useful for your research. (Currently under review for MRM)
+Please cite our paper if you find it useful for your research.
 
 ```
 @inproceedings{,
