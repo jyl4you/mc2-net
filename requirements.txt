@@ -33,7 +33,7 @@ nibabel==2.5.1
 numpy==1.17.4
 oauthlib==3.1.0
 olefile==0.46
-opencv-python==4.1.1.26
+opencv-python==4.2.0.32
 opt-einsum==3.1.0
 Pillow==7.1.2
 protobuf==3.12.3
