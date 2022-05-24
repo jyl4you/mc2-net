@@ -55,7 +55,7 @@ scipy @ file:///tmp/build/80754af9/scipy_1592930540905/work
 six==1.13.0
 tensorboard==2.2.1
 tensorboard-plugin-wit==1.6.0
-tensorflow==2.2.0
+tensorflow==2.6.4
 tensorflow-estimator==2.2.0
 termcolor==1.1.0
 toolz==0.10.0
